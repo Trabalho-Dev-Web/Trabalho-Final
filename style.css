@@ -7,3 +7,17 @@ nav ul li a { color: #fff; text-decoration: none; }
 .container { width: 80%; margin: auto; overflow: hidden; } 
 section { padding: 20px; background: #fff; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); } 
 footer { background: #333; color: #fff; text-align: center; padding: 10px 0; position: fixed; width: 100%; bottom: 0; } 
+article img {
+    transition: transform 0.3s ease; /* Suaviza a transição */
+}
+
+/* Quando o mouse passa sobre a imagem */
+article img:hover {
+    transform: scale(1.2); /* Aumenta a imagem em 20% */
+}
+article img {
+    display: block; /* Faz a imagem se comportar como um bloco */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    width: 100%; /* Ajuste opcional para que a imagem ocupe a largura do contêiner */
+    max-width: 400px; /* Garante que a imagem não ultrapasse 400px de largura */
+}
