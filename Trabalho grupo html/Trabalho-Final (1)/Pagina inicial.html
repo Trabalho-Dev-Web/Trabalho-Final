@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pontos turísticos de BH e Região Metropolitana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Nosso Site</h1>
+        <nav>
+            <ul>
+                <li><a href="#atracoes">Atrações</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="atracoes">
+            <h2>Principais Atrações</h2>
+
+            <!-- Imagem da Lagoa da Pampulha com link para página específica -->
+            <article>
+                <h3>Lagoa da Pampulha</h3>
+                <a href="pampulha.html">
+                    <img src="https://th.bing.com/th/id/OIP.exCnk5xXhpZ8PizbJNRL3gHaE7?rs=1&pid=ImgDetMain" height="200" width="400" alt="Lagoa da Pampulha">
+                </a>
+            </article>
+
+            <!-- Imagem do Mineirão com link para página específica -->
+            <article>
+                <h3>Mineirão e Mineirinho</h3>
+                <a href="mineirao.html">
+                    <img src="https://tinyurl.com/2xmkyx95" height="200" width="400" alt="Mineirão e Mineirinho">
+                </a>
+            </article>
+
+            <!-- Imagem da Lagoa de Lagoa Santa com link para página específica -->
+            <article>
+                <h3>Lagoa de Lagoa Santa</h3>
+                <a href="lagoasant.html">
+                    <img src="https://tinyurl.com/26zt5z6u" height="200" width="400" alt="Lagoa de Lagoa Santa">
+                </a>
+            </article>
+        </section>
+    </div>
+    <section id="agendamento">
+        <h2>Agendamento de Passeios</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="data">Data do Passeio:</label>
+            <input type="date" id="data" name="data" required>
+
+            <label for="ponto">Ponto Turístico:</label>
+            <select id="ponto" name="ponto">
+                <option value="liberdade">Praça da Liberdade</option>
+                <option value="mercado">Mercado Central</option>
+                <option value="parque">Parque das Mangabeiras</option>
+                <option value="igreja">Igreja São Francisco de Assis</option>
+                <option value="mineirao">Mineirão</option>
+            </select>
+
+            <button type="submit">Agendar Passeio</button>
+        </form>
+    </section>
+
+    <section id="reservas">
+        <h2>Reservas</h2>
+        <p>Para reservas de restaurantes e hotéis, entre em contato pelo telefone: (31) 1234-5678.</p>
+    </section>
+
+    <section id="dicas">
+        <h2>Dicas</h2>
+        <ul>
+            <li>Experimente o pão de queijo! "Uai, é gostoso demais da conta sô!"</li>
+            <li>Visite o Mercado Central para comprar artesanato local.</li>
+            <li>Use transporte público para evitar o trânsito.</li>
+            <li>Não esqueça de levar um guarda-chuva, pois pode chover!</li>
+        </ul>
+    </section>
+  
+</body>
+</html>
